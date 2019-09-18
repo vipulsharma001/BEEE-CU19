@@ -34,3 +34,11 @@ POINTS TO NOTE
 5. The top and the bottom rows in the breadboard are connected horizantally and they are connected upto five secions and the middel rows are
    connected vertically so make your connections accordingly. 
 6. The program must be witten in case sensitive way as C language is used and it is case sensitive.
+
+ LEARNING OUTCOMES 
+
+1. Better understanding of the working of Arduino Uno and Breadboard.
+2. Better Understanding of making circuits on a Breadboard.
+3. Better understanding in using for loop.
+4. Working of LEDs connected in series.
+5. Familiarity with new Arduino IDE.
