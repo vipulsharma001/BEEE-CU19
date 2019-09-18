@@ -1,0 +1,36 @@
+This is Ardunio program to make LED Chaser
+
+Aim- To design LED Chaser
+
+Material Required- Ardunio Uno board,Bread Board,4 LED,,Connecting Wires,etc.
+
+Procedure:-
+1.  Take an Ardunio Uno board ,a Bread board, 4 LED,and some connecting wires.
+2.  Connect  LED in breadboard accroding to the positive and negative terminla of LED and breadboard.
+3.  Make sure that positive terminal of the LED(the longer leg) must be connected to the positive terminal and negative terminal(shorter leg)
+    must be connected to the negative terminal of the breadboard.
+4.  Take a connecting wire and connect the positive terminal of the LED to the positive pin in the Ardinuo board and negative terminal to the
+    ground of the the Ardunio board.
+5.  Make sure that you must connect the wire in the digital pins as LED is a digital device and also ensure you are connecting the wire to the 
+    same pins as you have delcared in your code otherwise the LED will not work.
+6.  Now open your software and write a program for LED chaser by using fors loop in such a way that LED fallow patern of chaser (one on,one off,second on
+   ,second off..... upto the fourth LED) As the code is written in C language and it is case sensitive so be careful while writing code.
+7.  After completing the code compile it.
+8.  Now connect your board to your computer with the help of USB cable. 
+9.  Now in tools section go into board and select board ie. Ardunio Uno and port which you are using.
+10. If you choose different board or different port the program will not work.
+11. After choosing Appropriate board and port uplode your program in board and your LED will start blinking.
+
+
+POINTS TO NOTE
+
+1. You must connect your LED to the digital pins of the board as LED is a digital device.
+2. Digital pins in the board is numbered from 0-13 ie.(0,1,2,3,4,5,6,7,8,9,10,11,12,13) and a groung pin you must connect your wire to the
+   pin which you have mentioned in your code because the board will send the signal only to that particular pin so only that pin will work
+   if you connects yor wire to the different pin as mentioned in the program then your LED will not glow.
+3. Before uploding your program to the board you must select the Ardiuno board and appropriate port from the tool section in the softwore
+   otherwise your program will not be uploded to the board and a message of uploding error will appear.
+4. Make sure you make a common ground of all four LED as their only one pin of ground in digital section.
+5. The top and the bottom rows in the breadboard are connected horizantally and they are connected upto five secions and the middel rows are
+   connected vertically so make your connections accordingly. 
+6. The program must be witten in case sensitive way as C language is used and it is case sensitive.
